@@ -64,8 +64,8 @@ public class Solution {
                 }
                 
             }
-            
-            if(list.size() > 0) {
+
+            if (!list.isEmpty()) {
                 
                 result.add(list);
                 
@@ -75,6 +75,8 @@ public class Solution {
         }
         
         return result;
+
+        }
         
     }
 
