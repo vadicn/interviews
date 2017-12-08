@@ -10,7 +10,7 @@ public class CreateLinkedListForEachLevel {
 			current.add(root);
 		}
 
-		while(current.size() > 0) {
+		while (!current.isEmpty()) {
 			result.add(current); //add previous level
 			LinkedList<TreeNode> parents = current; //go to next level
 			current = new LinkedList<TreeNode>();
@@ -25,5 +25,7 @@ public class CreateLinkedListForEachLevel {
 			}
 		}
 		return result;
+
+		}
 	}
 }

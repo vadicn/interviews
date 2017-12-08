@@ -34,7 +34,7 @@ public class SetOfStacks {
 	}
 
 	public Stack getLastStack() {
-		if(stacks.size() == 0) {
+		if (stacks.isEmpty()) {
 			return null;
 		}
 		return stacks.get(stacks.size() - 1);
